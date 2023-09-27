@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.sections-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  margin: 5rem auto;
+}
+.section ul.section-content {
+  display: none;
+}
+.section h5 {
+  color: #8ac0de;
+}
+.section.section-active ul.section-content {
+  display: block;
+}
+.section.section-active h5 {
+  color: #435889;
+}
+ul.section-content,
+ul.form-tags {
+  list-style-type: none;
+}
+ul.form-tags {
+  display: flex;
+}
+span.grey {
+  color: grey;
+}
