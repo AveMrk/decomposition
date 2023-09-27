@@ -1,4 +1,10 @@
-export default function SectionItemEfir({ children }) {
+/**
+ * Выводит тег эфира с иконкой
+ */
+interface SectionEfirProps {
+  children: React.ReactNode
+}
+export default function SectionItemEfir({ children }: SectionEfirProps) {
   return (
     <div className="section-weather">
       <svg

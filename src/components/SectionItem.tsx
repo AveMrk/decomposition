@@ -1,3 +1,6 @@
+/**
+ *  Выводит тег секции
+ */
 import React from "react";
 export interface SectionItemProps {
   item: {

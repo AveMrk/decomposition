@@ -1,3 +1,6 @@
+/**
+ * Выводит тег погоды с иконкой
+ */
 interface SectionItemWeatherProps {
   children: React.ReactNode,
   type: string
